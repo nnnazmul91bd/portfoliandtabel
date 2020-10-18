@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+.bootstrap{
+    background: white;
+    padding-top: 30px;
+}
+.container1{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+}
+.box{
+    width: 31.50%;
+    float: left;
+    padding: 30px 20px;
+    background: #EAEBED;
+    margin: 10px;
+}
+.box h2{
+    padding-bottom: 10px;
+}
+
+/* portfolio  */
+.portfolio{
+	background-color: #EAEBED;
+	padding: 50px 0;
+	margin-top: 30px;
+}
+.portfolio h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.portfolio .container1{}
+.portfolio .container1 .port_1{
+	background-color: #CE891C;
+	text-align: center;
+}
+.portfolio .container1 .port_2{
+    text-align: center;
+    background: #8220a6b0;
+}
+.portfolio .container1 .port_3{
+    text-align: center;
+    background: #cbd926;
+}
+.portfolio .container1 .port_4{
+    text-align: center;
+    background: #8220a6b0;
+}
+.portfolio .container1 .port_5{
+    text-align: center;
+    background: #cbd926;
+}
+.portfolio .container1 .port_6{
+    text-align: center;
+    background: #e60c0cde;
+}
+.portfolio .container1 .box img{
+    max-width: 180px;
+    height: 200px;
+}
+
+
+/* tabel part is here */
+.table{
+	width: 1100px;
+	margin: auto;
+
+}
+.table h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 25px 0;
+}
+.line{
+    background: red;
+    height: 2px;
+    width: 120px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.three_part{
+	display: flex;
+	height: 100px;
+	margin: 20px 0;
+	width: 100%;
+	background: #ce891c;
+}
+.three_part .three_part1{
+	width: 33.33%;
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+}
+/* table one part */
+.one_part{
+	
+width: 100%;
+	
+background: #a15fbb;
+	
+	
+padding: 10px;
+	
+color: white;
+	
+height: 100px;
+	
+margin-bottom: 20px;
+}
+/* part two */
+.two_part{
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    background: #f12f7d;
+    display: flex;
+}
+.two_part .two{
+    width: 50%;
+    border: 1px solid white;
+}
+/* again three part */
+.athree_part{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    background: red;
+    margin: 20px 0;
+}
+.apart8{
+    width: 60%;
+    padding: 10px;
+}
+.apart2{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid white;
+}
